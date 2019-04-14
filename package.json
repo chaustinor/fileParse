@@ -1,0 +1,25 @@
+{
+  "name": "37WidgetsLoggingApp",
+  "version": "1.0.0",
+  "description": "37Widgets Logging App",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "app-root-path": "2.2.1",
+    "bluebird": "3.5.4",
+    "mocha": "^6.0.2",
+    "winston": "3.2.1"
+  },
+  "engines": {
+    "node": "10.15.2"
+  },
+  "scripts": {
+    "chris": "./hello.sh",
+    "start": "NODE_ENV=development node app",
+    "test": "NODE_ENV=development mocha ./tests/logFile.test.js -- inputFile=./data/input.txt -- outputFile=./tests/output.txt -- chris=40",
+    "debug": "NODE_ENV=development mocha --inspect-brk ./tests/logFile.test.js -- chris=40 -- inputFile=./data/input.txt -- outputFile=./tests/output.txt"
+  },
+  "author": "Chris Campbell",
+  "license": "ISC",
+  "devDependencies": {}
+}
