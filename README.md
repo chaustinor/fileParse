@@ -1,11 +1,11 @@
 
-#Project Description
+#Project Description:
 This project calculates statistics on ANY TYPE OF SENSOR readings provided that the data input format is adhered to. 
 
-#Input
+#Input:
 Input text file(s) containing readings as referenced in the bash files (i.e. ./dev.sh) are read into the app.
 
-#Output
+#Output:
 The output is a text file(s) containing the calculations for all of the applicable devices.
 
 #Step-up:
@@ -27,16 +27,16 @@ The output is a text file(s) containing the calculations for all of the applicab
 	Modify the script(s) as needed
 	Ensure that both the input/output files are provided as parameters with .txt extensions
 
-#Logging
+#Logging:
 	Winston logging has been implemented with configurable levels based upon env and/or input as defined in the winston.js log. Furthermore, it been configured to log to both file and console for non-production environments and only to file for production. The logging outputs to the './logs' directory
 
-#Recommended Enhancements
+#Recommended Enhancements:
 	- Move the "reference" values (currently temperature and humidity) out of the input file and pass them as parameters into the app from the bash scripts
 	- Break out the input file into separate files based upon the sensor type. This will reduce the complexity of the parsing logic, thereby making the app more robust
 	- As for the output, a flag should be passed that either: a) writes all the statistics to a single file; or, b) writes to separate files
 	- To accomodate a multiple input/output file format, the bash files could simply be updated with a loop that iterates through 'n' files 
 	
-#Misc
+#Misc:
 This app was designed to already support future devices types. To implement a new device, simply follow these steps:
 	- Append the data to the input file following the current format
 	- In the "logFileEngine" file, write the corresponding calculation logic in a function and reference it in the "evaluateLogFile" function's case statement. A stubbed out function for pressure has been provided as an example.
