@@ -1,9 +1,6 @@
-const fileIO = require("../utils/fileIO.js");
 const math = require("../utils/math.js");
-const logFileEngine = require("../utils/logFileEngine.js");
 const chai = require('chai'); 
 const assert = chai.assert;
-const { inputFile, testOutputFile ,outputFile } = require('minimist')(process.argv.slice(2));
 
 describe("mean calculation test", () => {
   it("verifies that the mean calculation function is correct", () => {
@@ -26,25 +23,3 @@ describe("standard deviation calculation test", () => {
     assert.equal(expectedStdDeviation, calcStdDeviation.toFixed(2), msg);
   })
 })
-
-describe("test input file", () => {
-  it("verifies that input file is read correctly", () => {
-  
-    fileIO.readFileAsync(inputFile).then(file => {
-      fileIO.writeFileAsync(testOutputFile, file);
-      assert.isNotNaN(file.length);
-    })
-  })
-})
-
-describe("test parsing of input file", () => {
-  it("verifies that input file is properly parsed ", () => {
-
-  	fileIO.readFileAsync(inputFile).then(file => {
-      const sensorRatings = logFileEngine.evaluateLogFile(file);
-      fileIO.writeFileAsync(outputFile, JSON.stringify(sensorRatings, null, 2));
-      assert.isNotNaN(file.length);
-    })
-  })
-})
-
