@@ -34,6 +34,7 @@ The output is a text file(s) containing the calculations for all of the applicab
 	- Move the "reference" values (currently temperature and humidity) out of the input file and pass them as parameters into the app from the bash scripts
 	- Break out the input file into separate files based upon the sensor type. This will reduce the complexity of the parsing logic, thereby making the app more robust
 	- As for the output, a flag should be passed that either: a) writes all the statistics to a single file; or, b) writes to separate files
+	- To accomodate a multiple input/output file format, the bash files could simply be updated with a loop that iterates through 'n' files 
 	
 #Misc
 This app was designed to already support future devices types. To implement a new device, simply follow these steps:
