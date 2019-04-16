@@ -5,9 +5,8 @@ const assert = require("assert")
 const logger = require('./winston.js')
 const testFolder = './data/';
 const fs = require('fs');
+const { inputFile, outputFile } = require('minimist')(process.argv.slice(2));
 
-const inputFile = process.argv[2];
-const outputFile = process.argv[3];
 let error = false;
 
 if (!inputFile) {
@@ -30,27 +29,11 @@ if (outputFile.substr(outputFile.length - 4) !== '.txt') {
   error = true;
 }
 
-fs.readdirSync(testFolder).forEach(file => {
-  fileIO.readFileAsync(`./data/${file}`).then(file => {
-      const sensorRatings = logFileEngine.evaluateLogFile(file);
-      fileIO.writeFileAsync(outputFile, JSON.stringify(sensorRatings, null, 2));
-    })
-});
-
-// fs.readdir(testFolder, (err, files) => {
-//   //debugger
-//   //console.log(files)
-//   files.forEach(file => {
-//     //console.log(file);
-//     fileIO.readFileAsync(`./data/${file}`).then(file => {
-//       const sensorRatings = logFileEngine.evaluateLogFile(file);
-//       fileIO.writeFileAsync(outputFile, JSON.stringify(sensorRatings, null, 2));
-//     })
-//   });
-// });
-
 if (!error){
-  
+  fileIO.readFileAsync(inputFile).then(file => {
+    const sensorRatings = logFileEngine.evaluateLogFile(file);
+    fileIO.writeFileAsync(outputFile, JSON.stringify(sensorRatings, null, 2));
+  })
 }
 else {
   setTimeout(() => { process.exit(1) }, 1000);

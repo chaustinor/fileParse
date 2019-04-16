@@ -1,0 +1,2 @@
+#!/bin/bash
+NODE_ENV=development ./node_modules/mocha/bin/mocha ./tests/logFile.test.js --inputFile='./readings/input.txt' --testOutputFile='./output/testoutputfile.txt' --outputFile='./output/outputfile.txt'

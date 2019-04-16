@@ -7,6 +7,8 @@
   "dependencies": {
     "app-root-path": "2.2.1",
     "bluebird": "3.5.4",
+    "chai": "4.2.0",
+    "minimist": "1.2.0",
     "mocha": "^6.0.2",
     "winston": "3.2.1"
   },
@@ -14,10 +16,7 @@
     "node": "10.15.2"
   },
   "scripts": {
-    "chris": "./hello.sh",
-    "start": "NODE_ENV=development node app",
-    "test": "NODE_ENV=development mocha ./tests/logFile.test.js -- inputFile=./data/input.txt -- outputFile=./tests/output.txt -- chris=40",
-    "debug": "NODE_ENV=development mocha --inspect-brk ./tests/logFile.test.js -- chris=40 -- inputFile=./data/input.txt -- outputFile=./tests/output.txt"
+    "debug": "NODE_ENV=development mocha --inspect-brk ./tests/logFile.test.js -- inputFile=./data/input.txt -- outputFile=./tests/output.txt"
   },
   "author": "Chris Campbell",
   "license": "ISC",

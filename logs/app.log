@@ -1,7 +1,5 @@
-{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
-{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
-{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
-{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
+
+
 {"message":"Reading input file...","level":"info"}
 {"message":"Input file has been successfully loaded","level":"info"}
 {"message":"Writing to ouput file...","level":"info"}
@@ -10,111 +8,42 @@
 {"message":"Input file has been successfully loaded","level":"info"}
 {"message":"Writing to ouput file...","level":"info"}
 {"message":"Output file has been successfully written","level":"info"}
-{"message":"chris","level":"error"}
 {"message":"Reading input file...","level":"info"}
 {"message":"Input file has been successfully loaded","level":"info"}
 {"message":"Writing to ouput file...","level":"info"}
 {"message":"Output file has been successfully written","level":"info"}
-{"message":"Mean Calc Test - Expected: 20 Actual: 20","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Reading input file...","level":"info"}
+{"message":"Input file has been successfully loaded","level":"info"}
+{"message":"Writing to ouput file...","level":"info"}
+{"message":"Output file has been successfully written","level":"info"}
+{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
+{"message":"Input file .txt extension missing or incorrect format!","level":"error"}
 {"message":"Mean Calc Test - Expected: 20 Actual: 20","level":"info"}
 {"message":"Std Deviation Calc Test - Expected: 1.92 Actual: 1.920286436967152","level":"info"}
 {"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '--./data/input.txt'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '--../data/input.txt'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '--'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '../data/input.txt'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '../data/input.txt'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '--'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Reading input file...","level":"info"}
 {"message":"Input file has been successfully loaded","level":"info"}
 {"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '2000'","level":"error"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '2000'","level":"error"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open '2000'","level":"error"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"The following error occurred reading the input file: Error: ENOENT: no such file or directory, open 'input.txt'","level":"error"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Reading input file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Input file has been successfully loaded","level":"info"}
-{"message":"Writing to ouput file...","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
-{"message":"Output file has been successfully written","level":"info"}
+
