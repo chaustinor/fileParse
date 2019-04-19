@@ -28,7 +28,7 @@ The output is a text file(s) containing the calculations for all of the applicab
 * Ensure that both the input/output files are provided as parameters with .txt extensions
 
 ## Logging:
-Winston logging has been implemented with configurable levels based upon env and/or input as defined in the winston.js log. Furthermore, it been configured to log to both file and console for non-production environments and only to file for production. The logging outputs to the './logs' directory
+Winston logging has been implemented with configurable levels based upon env and/or input as defined in the winston.js log. Furthermore, it been configured to log to both file and console for non-production environments and only to file for production. The logging outputs to the './logs' directory.
 
 ## Recommended Enhancements:
 * Move the "reference" values (currently temperature and humidity) out of the input file and pass them as parameters into the app from the bash scripts
