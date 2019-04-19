@@ -19,9 +19,9 @@ The output is a text file(s) containing the calculations for all of the applicab
 
 ## Testing
 Steps for testing:
-	* Execute the following bash file: "./test.sh"
-	* Modify the script as needed
-	* Outputs will be displayed to the console and output as test files accordingly
+* Execute the following bash file: "./test.sh"
+* Modify the script as needed
+* Outputs will be displayed to the console and output as test files accordingly
 
 ## Running the app:
 	Execute the following bash file: "./dev.sh" or "./prod.sh"
